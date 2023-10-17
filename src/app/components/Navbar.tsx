@@ -38,14 +38,14 @@ const Navbar = () => {
               className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white"
               onClick={() => setNavbarOpen(false)}
             >
-              <Bars3Icon className="h-5 w-5" />
+              <XMarkIcon className="h-5 w-5" />
             </button>
           ) : (
             <button
               className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white"
               onClick={() => setNavbarOpen(true)}
             >
-              <XMarkIcon className="h-5 w-5" />
+              <Bars3Icon className="h-5 w-5" />
             </button>
           )}
         </div>
