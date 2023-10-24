@@ -1,8 +1,8 @@
 import AboutSection from "./components/AboutSection";
 import EmailSection from "./components/EmailSection";
-import Footer from "./components/Footer";
+import Footer from "./layout/Footer";
 import HeroSection from "./components/HeroSection";
-import Navbar from "./components/Navbar";
+import Navbar from "./layout/Navbar/Navbar";
 import ProjectsSection from "./components/ProjectsSection";
 
 export default function Home() {
