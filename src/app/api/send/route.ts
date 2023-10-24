@@ -1,4 +1,4 @@
-import HeroSection from "@/app/components/HeroSection";
+import { NextApiRequest, NextApiResponse } from "next";
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
@@ -12,14 +12,13 @@ type Req = {
   };
 };
 
-export async function POST(req: Req, res: unknown) {
-  const { body } = req;
-  const { email, subject, message } = body;
-
+export async function POST(req: any, res: any) {
+  const { email, subject, message } = await req.json();
+  console.log(email, subject, message);
   try {
     const data = await resend.emails.send({
       from: fromEmail,
-      to: ["korcalahubert@gmail.com", email],
+      to: [fromEmail, email],
       subject: subject,
       html: `<div>
               <h1>${subject}</h1>
