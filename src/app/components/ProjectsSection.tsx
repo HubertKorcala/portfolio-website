@@ -54,8 +54,8 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section>
-      <h2 className="text-center text-4xl font-bold mt-4 mb-8">
+    <section id="projects" className="pt-20">
+      <h2 className="text-center text-4xl font-bold mt-4 mb-2">
         Study Projects
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
@@ -68,11 +68,7 @@ const ProjectsSection = () => {
           />
         ))}
       </div>
-      <ul
-        ref={ref}
-        id="projects"
-        className="grid md:grid-cols-3 gap-8 md:gap-12"
-      >
+      <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
           <motion.li
             variants={cardVariants}

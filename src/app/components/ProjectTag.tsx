@@ -10,8 +10,8 @@ const ProjectTag = ({
   isSelected: boolean;
 }) => {
   const buttonStyles = isSelected
-    ? "text-white border-primary-500"
-    : "text-[#ADB7BE] border-slate-600 hover:border-white";
+    ? "text-text-100 border-primary-500"
+    : "text-[#ADB7BE] text-text-100 border-slate-600 hover:border-white";
 
   return (
     <button
