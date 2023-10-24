@@ -8,11 +8,11 @@ const projectsData = [
   {
     id: 1,
     title: "E-shop",
-    description: "Shop site for selling products",
+    description: "E-commerce application build using MERN stack.",
     image: "/images/projects/1.png",
     tag: ["All", "React"],
-    gitUrl: "",
-    previewUrl: "",
+    gitUrl: "https://github.com/HubertKorcala/e-shop",
+    previewUrl: "https://e-shop-rwhl.onrender.com/",
   },
 ];
 
