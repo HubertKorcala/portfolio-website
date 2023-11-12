@@ -14,6 +14,16 @@ const projectsData = [
     gitUrl: "https://github.com/HubertKorcala/e-shop",
     previewUrl: "https://e-shop-rwhl.onrender.com/",
   },
+  {
+    id: 2,
+    title: "Dev Overflow",
+    description:
+      "A collaborative Q&A web app, using Next.js, server actions, app router, MongoDB, ClerkId, Shadcn and Tailwind CSS.",
+    image: "/images/projects/2.png",
+    tag: ["All", "Next.js"],
+    gitUrl: "https://github.com/HubertKorcala/dev-overflow",
+    previewUrl: "https://dev-overflow-swart.vercel.app/",
+  },
 ];
 
 const ProjectsSection = () => {
