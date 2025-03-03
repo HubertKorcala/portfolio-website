@@ -15,15 +15,16 @@ const TAB_DATA: TabData[] = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
+        <li>HTML</li>
+        <li>CSS/SCSS/Tailwind</li>
+        <li>TypeScript</li>
         <li>React</li>
+        <li>React Native</li>
         <li>Next.js</li>
         <li>Redux</li>
-        <li>JavaScript</li>
-        <li>TypeScript</li>
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>HTML</li>
-        <li>CSS</li>
+        <li>PostgreSQL</li>
+        <li>MongoDB/Mongoose</li>
+        <li>Git</li>
       </ul>
     ),
   },
@@ -32,8 +33,8 @@ const TAB_DATA: TabData[] = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>XLII Liceum Ogólnokształcące im. Marii Konopnickiej w Warszawie</li>
-        <li>SGGW w Warszawie - informatyka</li>
+        <li> XLII secondary school named after Maria Konopnicka in Warsaw</li>
+        <li>SGGW in Warsaw - informatics and computer science</li>
       </ul>
     ),
   },
@@ -42,7 +43,8 @@ const TAB_DATA: TabData[] = [
     id: "experience",
     content: (
       <ul className="list-disc pl-2">
-        <li>Trainee as Web Developer(react, nextjs) in Agileme company</li>
+        <li>Jul 2024 - Present - Software Developer at Grupa Lucrum</li>
+        <li>Feb 2023 - Jul 2023 - Trainee as Web Developer(react, nextjs) in Agileme company</li>
       </ul>
     ),
   },

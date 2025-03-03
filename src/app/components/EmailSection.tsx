@@ -51,10 +51,10 @@ const EmailSection = () => {
           ll try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2 z-10">
-          <Link className="z-10" href="github.com">
+          <Link className="z-10" href="https://github.com/HubertKorcala" target="_blank">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link className="z-10" href="linkedin.com">
+          <Link className="z-10" href="https://www.linkedin.com/in/hubert-korcala-0305a6297/" target="_blank">
             <Image src={LinkedinIcon} alt="LinkedIn Icon" />
           </Link>
         </div>
@@ -77,7 +77,7 @@ const EmailSection = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
-                placeholder="hubert@gmail.com"
+                placeholder="your-email@gmail.com"
                 className="bg-[#18191E]  border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
               />
             </div>
